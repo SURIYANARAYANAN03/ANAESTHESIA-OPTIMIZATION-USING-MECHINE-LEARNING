@@ -1,20 +1,4 @@
-## PHASE 4: Database Management & SQL Clinical Analysis:
-
-### 🎯 OVERVIEW:
-This phase focuses on executing structured Exploratory Data Analysis (EDA), data verification, and advanced clinical risk stratification on the cleaned anesthesia dataset (`1,010 records`) using **MySQL** and **DBeaver** to prepare the data for machine learning optimization.
-
-### ⚙️ KEY TECHNICAL STEPS:
-1. **Database & Table Verification:** Checked schema integrity, row counts, and confirmed successful data import into `anesthesia_project_db.cleaned_anesthesia_data`.
-2. **Basic Filtering & Profiling:** Filtered patient cohorts based on age, gender, and surgical categories.
-3. **Aggregations & Calculations:** Computed average recovery durations (`PACU_Recovery_Time_mins`), BMI distributions, and surgical frequencies using `GROUP BY` and `ROUND()`.
-4. **Risk Stratification & Segmentation:** Utilized advanced SQL clauses including `CASE WHEN` for multi-level risk categorization (e.g., elderly and obese patients) and `HAVING` to isolate high-risk ASA grades with prolonged recovery times.
-
-### 🛠️ TECH STACKS & TOOL:
-* **Database Management System:** MySQL
-* **SQL IDE & Workspace:** DBeaver (Split-screen script and grid execution)
-* **Dataset:** `cleaned_anesthesia_data.csv` (Featuring One-Hot Encoded categorical variables)
-### ⚙️ MY QUARY CODES:
-  -----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
 -- ## PHASE 4: DATA MANAGEMENT & CLINICAL INSIGHTS:
   
 -- Project Objective: To analyze clinical parameters, patient vitals, and 
@@ -133,6 +117,3 @@ FROM anesthesia_project_db.cleaned_anesthesia_data
 GROUP BY ASA_Grade
 HAVING AVG(PACU_Recovery_Time_mins) > 90
 ORDER BY Avg_Recovery_Mins DESC;
-
----
-👉 **NEXT PHASE 5:** Proceeding to Phase 5: Tableau Visualization & Interactive Clinical Dashboards.....
