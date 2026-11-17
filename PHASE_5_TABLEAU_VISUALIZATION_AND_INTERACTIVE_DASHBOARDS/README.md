@@ -5,10 +5,13 @@ This final phase focuses on translating complex clinical analytics, machine lear
 the visualizations provide real-time decision-support insights regarding anesthesia selection, drug dosage optimization, and post-operative patient recovery metrics.
 
 ## KEY TECHNICAL STEPS AND IMPLEMENTATION:
-* **Dashboard 1 - Pre-Operative Risk & Anesthesia Selection:** Visualizes patient pre-op findings (ASA physical status, age, comorbidities) to compare outcomes between General Anesthesia and Spinal Anesthesia.
-* **Dashboard 2 - Drug Dosage & Pharmacology Optimization:** Interactive visual breakdown of induction drugs, analgesics, muscle relaxants, and reversal agents correlated with patient weight and vitals.
-* **Dashboard 3 - Spinal Anesthesia Efficacy (Bupivacaine ± Fentanyl):** Comparative analysis illustrating pain relief scores, duration of sensory/motor block, and patient comfort levels with and without Fentanyl.
-* **Dashboard 4 - Post-Operative Recovery & PACU Metrics:** Tracks recovery durations in PACU minutes based on specific reversal agents administered, identifying optimal clinical pathways for faster discharge.
+* **Dashboard 1 - Pre-Operative Risk & Anesthesia Selection:** Visualizes patient pre-op findings (ASA physical status, age, comorbidities) to compare outcomes between General Anesthesia and Spinal Anesthesia.(COMING NEXT)
+
+* **Dashboard 2 - Drug Dosage & Pharmacology Optimization:** Interactive visual breakdown of induction drugs, analgesics, muscle relaxants, and reversal agents correlated with patient weight and vitals.(COMING NEXT)
+
+* **Dashboard 3 - Spinal Anesthesia Efficacy (Bupivacaine ± Fentanyl):** Comparative analysis illustrating pain relief scores, duration of sensory/motor block, and patient comfort levels with and without Fentanyl.(COMING NEXT)
+
+* **Dashboard 4 - Post-Operative Recovery & PACU Metrics:** Tracks recovery durations in PACU minutes based on specific reversal agents administered, identifying optimal clinical pathways for faster discharge.(COMING NEXT)..
 
 ## TECH STACK AND TOOLS:
 * **Data Visualization Tool:** Tableau Public / Tableau Desktop
