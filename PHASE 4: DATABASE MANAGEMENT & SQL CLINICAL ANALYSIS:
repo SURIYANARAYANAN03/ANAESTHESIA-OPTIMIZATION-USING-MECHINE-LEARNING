@@ -14,9 +14,9 @@ This phase focuses on executing structured Exploratory Data Analysis (EDA), data
 * **SQL IDE & Workspace:** DBeaver (Split-screen script and grid execution)
 * **Dataset:** `cleaned_anesthesia_data.csv` (Featuring One-Hot Encoded categorical variables)
 ### ⚙️ MY QUARY CODES:
-  -- =====================================================================
+  -----------------------------------------------------------------------------------------------------------------------------------------------------
 -- ## PHASE 4: DATA MANAGEMENT & CLINICAL INSIGHTS:
--- =====================================================================
+  
 -- Project Objective: To analyze clinical parameters, patient vitals, and 
 -- anesthesia dosages to evaluate recovery times and patient safety metrics.
 -- =====================================================================
@@ -49,7 +49,7 @@ FROM anesthesia_project_db.cleaned_anesthesia_data
 
 -- =====================================================================
 -- ## STEP 4: ADVANCED CLINICAL & MACHINE LEARNING SUPPORT QUERIES
--- =====================================================================
+-- ====================================================================
 
 SELECT 
     ASA_Grade, 
